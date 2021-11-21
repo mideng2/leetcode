@@ -19,7 +19,7 @@ var solveNQueens = function (n) {
 
 function backtrack(chs, row, n) {
   console.log(chs, row, n)
-  if (row === n) {
+  if (row === n) { // row + 1数组长度
     res.push(JSON.parse(JSON.stringify(chs)))
     return
   }
