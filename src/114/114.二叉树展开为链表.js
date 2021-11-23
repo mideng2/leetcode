@@ -38,3 +38,4 @@ function flatten(root) {
   }
   p.right = right
 }
+// 另外注意递归框架是后序遍历，因为我们要先拉平左右子树才能进行后续操作。
